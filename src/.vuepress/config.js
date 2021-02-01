@@ -3,7 +3,7 @@ const private = require('./private')
 module.exports = {
     title: "七七算法",
     plugins: [
-        require('./lib/Notification.js'),
+        // require('./lib/Notification.js'),
         [require('./plugin/enhanced-search'), { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
             thirdparty: [ // 可选，默认 []
                 {
@@ -25,6 +25,9 @@ module.exports = {
         sidebar,
         searchPlaceholder: "search...",
         nav: [
+            {text: '力扣', link: '/leetcode/', icon: 'reco-coding'},
+            {text: '牛客', link: '/nowcoder/', icon: 'reco-coding'},
+            {text: '七七部落', link: 'http://qiqi.dreamagain.top/', icon: 'reco-friend'},
             {text: 'GitHub', link: 'https://github.com/small-universe/QiQi-Algorithm', icon: 'reco-github'}
         ],
         head: [

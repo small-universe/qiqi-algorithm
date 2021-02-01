@@ -23,15 +23,12 @@
       </i>
     </h4>
     <div class="notification-content">
-      <h5>🐳 扫码回复【进群】🐳 </h5>
-      <h5>🎉 加入每日刷题群 🎉</h5>
-      <h5>🍓 下载高清《图解算法》🍓</h5>
-      </br>
-      <img src="/code.png" alt />
+      <h5>🐳 最近更新 🐳 </h5>
+      <a href="/剑指offer/01" style="text-align: center">剑指offer</a>
     </div>
-    <div style="padding: 0px 16px;">
-      <hr />
-      <a href="/0.0.学习须知/01.html" class="btn-donate"> 进群 </a>
+    <div class="notification-content" style="padding: 0px 16px;">
+      <h5>🎉 了解更多 🎉</h5>
+      <a href="http://qiqi.dreamagain.top/" target="_blank" class="link"> 七七部落 </a>
     </div>
   </div>
 </template>
@@ -110,17 +107,12 @@ export default {
   width: 100%;
 }
 
-.notification-wrapper .btn-donate {
+.notification-wrapper .link {
   display: block;
-  margin: 2rem auto;
-  width: 3.4rem;
-  line-height: 3.4rem;
   text-align: center;
-  background-color: #0074af;
-  border-radius: 50%;
-  color: #fff;
+  color: #1ad474;
+  border-radius: 100%;
   font-size: 1rem;
-  box-shadow: var(--box-shadow);
   cursor: pointer;
 }
 </style>
