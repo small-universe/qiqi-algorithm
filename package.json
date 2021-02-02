@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "algoliasearch": "^4.2.0",
+    "markdown-it-mark": "^3.0.1",
     "vuepress": "^1.4.1",
     "vuepress-theme-reco": "^1.4.5"
   },

@@ -25,6 +25,7 @@ module.exports = {
         sidebar,
         searchPlaceholder: "search...",
         nav: [
+            {text: '首页', link: '/', icon: 'reco-home'},
             {text: '力扣', link: '/leetcode/', icon: 'reco-coding'},
             {text: '牛客', link: '/nowcoder/', icon: 'reco-coding'},
             {text: '七七部落', link: 'http://qiqi.dreamagain.top/', icon: 'reco-friend'},
@@ -53,5 +54,16 @@ module.exports = {
     },
     markdown: {
         lineNumbers: true,
+        // markdown-it-anchor 的选项
+        anchor: { permalink: true },
+        // markdown-it-toc 的选项
+        toc: { includeLevel: [1, 2, 3] },
+        // markdown 插件
+        extendMarkdown: md => {
+            md.set({ html: true })
+            md.use(require('markdown-it-mark'))
+            // md.use(require('markdown-it-task-lists'))
+            // md.use(require('markdown-it-vuepress-code-snippet-enhanced'))
+        },
     }
 }

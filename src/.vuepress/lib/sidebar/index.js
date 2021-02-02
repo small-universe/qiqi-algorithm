@@ -3,7 +3,7 @@ module.exports = {
     '/leetcode/': [
           {
               title: '数组系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.0.数组系列/001',
                   '1.0.数组系列/002',
@@ -18,7 +18,7 @@ module.exports = {
           },
           {
               title: '链表系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.1.链表系列/101',
                   '1.1.链表系列/102',
@@ -28,7 +28,7 @@ module.exports = {
           },
           {
               title: '动态规划',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.2.动态规划系列/201',
                   '1.2.动态规划系列/202',
@@ -40,7 +40,7 @@ module.exports = {
           },
           {
               title: '字符串系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.3.字符串系列/301',
                   '1.3.字符串系列/302',
@@ -54,7 +54,7 @@ module.exports = {
           },
           {
               title: '二叉树系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.4.二叉树系列/401',
                   '1.4.二叉树系列/402',
@@ -68,14 +68,14 @@ module.exports = {
           },
           {
               title: '回溯系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.41.回溯系列/1',
               ]
           },
           {
               title: '滑动窗口系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.5.滑动窗口系列/501',
                   '1.5.滑动窗口系列/502',
@@ -85,7 +85,7 @@ module.exports = {
           },
           {
               title: '博弈论问题',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.6.博弈论系列/601',
                   '1.6.博弈论系列/602',
@@ -101,7 +101,7 @@ module.exports = {
           },
           {
               title: '位运算系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.8.位运算系列/801',
                   '1.8.位运算系列/802',
@@ -113,7 +113,7 @@ module.exports = {
           },
           {
               title: '二分法系列',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.9.二分法系列/901',
                   '1.9.二分法系列/902',
@@ -125,7 +125,7 @@ module.exports = {
           },
           {
               title: '其他题目',
-              collapsable: false,
+              // collapsable: false,
               children: [
                   '1.99.其他补充题目/01',
                   '1.99.其他补充题目/02',
@@ -169,7 +169,7 @@ module.exports = {
     '/nowcoder/':[
           {
                     title: '剑指offer',
-                    collapsable: false,
+                    // collapsable: false,
                     children: [
                         '剑指offer/01',
                         '剑指offer/02',
