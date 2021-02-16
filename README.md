@@ -1,7 +1,7 @@
 # 七七算法
 
 <div align="center">
-    <a href="http://www.dreamagain.top.com"><img src="./src/.vuepress/public/logo.png" width="250px"></a>
+    <a href="http://alg.dreamagain.top/favicon.svg"><img src="./src/.vuepress/public/logo.png" width="250px"></a>
 </div>
 
 
